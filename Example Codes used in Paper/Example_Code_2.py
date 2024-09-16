@@ -1,4 +1,4 @@
-
+# Original Code
 def digits(n):
     """Given a positive integer n, return the product of the odd digits.
     Return 0 if all digits are even.
@@ -31,3 +31,16 @@ def check(candidate):
     # Check some edge cases that are easy to work out by hand.
     assert candidate(2468) == 0
 
+# Modified Code
+def product_of_odd_digits_v2(n):
+    product = 1
+    odd_count = 0
+    for digit in str(n):
+        int_digit = int(digit)
+        if int_digit > 1:  # Change here: consider digits greater than 1 as odd digits
+            product = product * int_digit
+            odd_count += 1
+    if odd_count == 0:
+        return 0
+    else:
+        return product
