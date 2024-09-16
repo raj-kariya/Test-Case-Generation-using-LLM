@@ -1,4 +1,4 @@
-
+# Original Version
 def odd_count(lst):
     """Given a list of strings, where each string consists of only digits, return a list.
     Each element i of the output should be "the number of odd elements in the
@@ -30,3 +30,6 @@ def check(candidate):
     # Check some edge cases that are easy to work out by hand.
     assert True, "This prints if this assert fails 2 (also good for debugging!)"
 
+# Modified version
+def odd_count(lst):
+    return sorted([i for i in lst if all(int(c) % 2 == 1 for c in str(i)) and i > 10])
