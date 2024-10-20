@@ -16,8 +16,8 @@ Test-Case-Generation-using-LLM" is an innovative approach to enhancing regressio
 4) <mark>Refinement and Combination</mark>: Combines relevant test cases from all code versions, forming a robust and efficient regression test suite.
 
 # Experimental Results
-*Demonstrated significant improvements in test coverage and bug detection compared to traditional methods.
-*Validated through experiments showing high precision in identifying and categorizing test cases.
+* Demonstrated significant improvements in test coverage and bug detection compared to traditional methods.
+* Validated through experiments showing high precision in identifying and categorizing test cases.
 
 # Limitations and Future Work
 * <mark>Structural Consistency</mark>: Requires identical syntactic structures for effective CFG comparison.
