@@ -23,3 +23,7 @@ Test-Case-Generation-using-LLM" is an innovative approach to enhancing regressio
 * <mark>Structural Consistency</mark>: Requires identical syntactic structures for effective CFG comparison.
 * <mark>Zero-shot Response Errors</mark>: Occasionally, the LLM may not provide accurate zero-shot responses.
 * <mark>Scope and Language Limitations</mark>: Initial analysis focused on Python; further research needed for broader applicability.
+
+# References
+1) [Effective Test Generation Using Pre-trained Large Language Models and Mutation Testing](https://arxiv.org/abs/2308.16557)
+2) [Code-Aware Prompting: A Study of Coverage-Guided Test Generation in Regression Setting using LLM](https://arxiv.org/abs/2402.00097)
