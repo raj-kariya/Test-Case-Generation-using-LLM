@@ -15,6 +15,14 @@ Test-Case-Generation-using-LLM" is an innovative approach to enhancing regressio
 3) <mark>Control Flow Graph Validation</mark>: Utilizes CFGs to validate and map execution paths, ensuring thorough testing and identification of obsolete test cases.
 4) <mark>Refinement and Combination</mark>: Combines relevant test cases from all code versions, forming a robust and efficient regression test suite.
 
+# Visual Representation:
+## Control Flow Graph for Triangle Type Version 1 and Version 2
+The control flow graph above illustrates the execution paths analyzed for regression testing, highlighting critical paths influenced by code changes.
+![Control Flow Graph](https://github.com/raj-kariya/Test-Case-Generation-using-LLM/blob/main/Examples_ControlFlowGraph.png)
+## Flowchart for Test Case Generation Process
+The flowchart outlines the process of test case generation, from initial prompt creation to final test suite compilation.
+![Flowchart](https://github.com/raj-kariya/Test-Case-Generation-using-LLM/blob/main/FlowChart.png)
+
 # Experimental Results
 * Demonstrated significant improvements in test coverage and bug detection compared to traditional methods.
 * Validated through experiments showing high precision in identifying and categorizing test cases.
